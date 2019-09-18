@@ -13,4 +13,5 @@ COPY package*.json ./
 RUN npm ci
 COPY . .
 
-ENTRYPOINT ["node", "src/index.js"]
+ENTRYPOINT ["probot", "receive"]
+CMD ["/src/index.js"]
