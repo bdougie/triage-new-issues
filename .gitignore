@@ -17,7 +17,6 @@ temp
 tmp
 
 # npm >=5 lock file (& shrinkwrap), we use Yarn!
-package-lock.json
 npm-shrinkwrap.json
 
 # Typescript v1 declaration files
